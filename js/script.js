@@ -31,6 +31,12 @@ while (randomNumbers.length < 5) {
   }
 }
 
+setTimeout(function() {
+  output.innerHTML = '';
+}, 5000);
+
+
+
 // Visualizziamo i numeri in pagina per 5 secondi prima che scompaiano 
 setTimeout(function() {
 
@@ -55,4 +61,4 @@ setTimeout(function() {
   // Stampiamo il risultato finale in pagina
   output.innerHTML = `Hai indovinato ${correctNumbers.length} numeri: ${correctNumbers}.`;  
   
-}, 5000);
+}, 5100);
